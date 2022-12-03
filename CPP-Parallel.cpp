@@ -1,6 +1,8 @@
-﻿#include "LockGaurd.h"
+﻿//#include "LockGaurd.h"
+#include "UniqueLock.h"
 
 int main()
 {
-    LockGaurdTest();
+    //LockGaurdTest();
+    UniqueLockTest();
 }
