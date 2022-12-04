@@ -9,14 +9,14 @@ std::mutex mtxB;
 void ab()
 {
 	const std::lock_guard<std::mutex> lckA(mtxA);
-	std::this_thread::sleep_for(std::chrono::seconds(100));
+	std::this_thread::sleep_for(std::chrono::seconds(1));
 	const std::lock_guard<std::mutex> lckB(mtxB);
 }
 
 void ba()
 {
 	const std::lock_guard<std::mutex> lckB(mtxB);
-	std::this_thread::sleep_for(std::chrono::seconds(100));
+	std::this_thread::sleep_for(std::chrono::seconds(1));
 	const std::lock_guard<std::mutex> lckA(mtxA);
 }
 
