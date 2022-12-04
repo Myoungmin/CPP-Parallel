@@ -142,6 +142,7 @@
     <ClCompile Include="CPP-Parallel.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="DeadLock.h" />
     <ClInclude Include="LockGaurd.h" />
     <ClInclude Include="UniqueLock.h" />
   </ItemGroup>

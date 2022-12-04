@@ -26,5 +26,8 @@
     <ClInclude Include="UniqueLock.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="DeadLock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
