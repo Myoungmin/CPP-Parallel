@@ -146,6 +146,7 @@
     <ClInclude Include="DeadLock.h" />
     <ClInclude Include="LockGaurd.h" />
     <ClInclude Include="ScopedLock.h" />
+    <ClInclude Include="SharedMutex.h" />
     <ClInclude Include="UniqueLock.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

@@ -32,5 +32,8 @@
     <ClInclude Include="ScopedLock.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="SharedMutex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
