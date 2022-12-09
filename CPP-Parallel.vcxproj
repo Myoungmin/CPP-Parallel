@@ -147,6 +147,7 @@
     <ClInclude Include="DeadLock.h" />
     <ClInclude Include="LockGaurd.h" />
     <ClInclude Include="ScopedLock.h" />
+    <ClInclude Include="ScopedStatic.h" />
     <ClInclude Include="SharedMutex.h" />
     <ClInclude Include="UniqueLock.h" />
   </ItemGroup>
