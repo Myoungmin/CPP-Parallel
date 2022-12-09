@@ -2,7 +2,8 @@
 //#include "UniqueLock.h"
 //#include "DeadLock.h"
 //#include "ScopedLock.h"
-#include "SharedMutex.h"
+//#include "SharedMutex.h"
+#include "CallOnce.h"
 
 int main()
 {
@@ -10,5 +11,6 @@ int main()
     //UniqueLockTest();
     //DeadLockTest();
     //ScopedLockTest();
-    SharedMutexTest();
+    //SharedMutexTest();
+    CallOnceTest();
 }

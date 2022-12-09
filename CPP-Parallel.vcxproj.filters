@@ -35,5 +35,8 @@
     <ClInclude Include="SharedMutex.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="CallOnce.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
