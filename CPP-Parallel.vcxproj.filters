@@ -41,5 +41,8 @@
     <ClInclude Include="ScopedStatic.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="ConditionVariable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

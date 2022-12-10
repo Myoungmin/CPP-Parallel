@@ -3,7 +3,8 @@
 //#include "DeadLock.h"
 //#include "ScopedLock.h"
 //#include "SharedMutex.h"
-#include "CallOnce.h"
+//#include "CallOnce.h"
+#include "ConditionVariable.h"
 
 int main()
 {
@@ -12,5 +13,6 @@ int main()
     //DeadLockTest();
     //ScopedLockTest();
     //SharedMutexTest();
-    CallOnceTest();
+    //CallOnceTest();
+    ConditionVariableTest();
 }
