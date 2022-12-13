@@ -44,5 +44,8 @@
     <ClInclude Include="ConditionVariable.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="ProducerConsumer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
