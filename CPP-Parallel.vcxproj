@@ -88,7 +88,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <LanguageStandard>stdcpp17</LanguageStandard>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -150,6 +150,7 @@
     <ClInclude Include="ProducerConsumer.h" />
     <ClInclude Include="ScopedLock.h" />
     <ClInclude Include="ScopedStatic.h" />
+    <ClInclude Include="Semaphore.h" />
     <ClInclude Include="SharedMutex.h" />
     <ClInclude Include="UniqueLock.h" />
   </ItemGroup>

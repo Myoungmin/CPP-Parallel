@@ -5,7 +5,8 @@
 //#include "SharedMutex.h"
 //#include "CallOnce.h"
 //#include "ConditionVariable.h"
-#include "ProducerConsumer.h"
+//#include "ProducerConsumer.h"
+#include "Semaphore.h"
 
 int main()
 {
@@ -16,5 +17,6 @@ int main()
     //SharedMutexTest();
     //CallOnceTest();
     //ConditionVariableTest();
-    ProducerConsumerTest();
+    //ProducerConsumerTest();
+    SemaphoreTest2();
 }
