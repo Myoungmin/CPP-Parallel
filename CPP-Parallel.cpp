@@ -6,7 +6,8 @@
 //#include "CallOnce.h"
 //#include "ConditionVariable.h"
 //#include "ProducerConsumer.h"
-#include "Semaphore.h"
+//#include "Semaphore.h"
+#include "Latch.h"
 
 int main()
 {
@@ -18,5 +19,6 @@ int main()
     //CallOnceTest();
     //ConditionVariableTest();
     //ProducerConsumerTest();
-    SemaphoreTest2();
+    //SemaphoreTest2();
+    LatchTest();
 }

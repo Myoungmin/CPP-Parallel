@@ -146,6 +146,7 @@
     <ClInclude Include="CallOnce.h" />
     <ClInclude Include="ConditionVariable.h" />
     <ClInclude Include="DeadLock.h" />
+    <ClInclude Include="Latch.h" />
     <ClInclude Include="LockGaurd.h" />
     <ClInclude Include="ProducerConsumer.h" />
     <ClInclude Include="ScopedLock.h" />

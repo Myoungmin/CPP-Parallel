@@ -50,5 +50,8 @@
     <ClInclude Include="Semaphore.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Latch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
