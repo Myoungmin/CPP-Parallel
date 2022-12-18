@@ -7,7 +7,8 @@
 //#include "ConditionVariable.h"
 //#include "ProducerConsumer.h"
 //#include "Semaphore.h"
-#include "Latch.h"
+//#include "Latch.h"
+#include "Barrier.h"
 
 int main()
 {
@@ -20,5 +21,6 @@ int main()
     //ConditionVariableTest();
     //ProducerConsumerTest();
     //SemaphoreTest2();
-    LatchTest();
+    //LatchTest();
+    BarrierTest();
 }

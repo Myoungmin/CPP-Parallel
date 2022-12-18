@@ -53,5 +53,8 @@
     <ClInclude Include="Latch.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Barrier.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
