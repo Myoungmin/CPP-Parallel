@@ -13,6 +13,12 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Header Files\Async">
+      <UniqueIdentifier>{1f4307ba-29fa-47fb-ae3b-0db7acb9ae4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Sync">
+      <UniqueIdentifier>{f5cd08ce-0ab7-4313-a035-03cdcb0b3c19}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CPP-Parallel.cpp">
@@ -20,41 +26,41 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="LockGaurd.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="UniqueLock.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="DeadLock.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="ScopedLock.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="SharedMutex.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="Barrier.h">
+      <Filter>Header Files\Sync</Filter>
     </ClInclude>
     <ClInclude Include="CallOnce.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="ScopedStatic.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\Sync</Filter>
     </ClInclude>
     <ClInclude Include="ConditionVariable.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\Sync</Filter>
     </ClInclude>
-    <ClInclude Include="ProducerConsumer.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Semaphore.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="DeadLock.h">
+      <Filter>Header Files\Sync</Filter>
     </ClInclude>
     <ClInclude Include="Latch.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\Sync</Filter>
     </ClInclude>
-    <ClInclude Include="Barrier.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="LockGaurd.h">
+      <Filter>Header Files\Sync</Filter>
+    </ClInclude>
+    <ClInclude Include="ProducerConsumer.h">
+      <Filter>Header Files\Sync</Filter>
+    </ClInclude>
+    <ClInclude Include="ScopedLock.h">
+      <Filter>Header Files\Sync</Filter>
+    </ClInclude>
+    <ClInclude Include="ScopedStatic.h">
+      <Filter>Header Files\Sync</Filter>
+    </ClInclude>
+    <ClInclude Include="Semaphore.h">
+      <Filter>Header Files\Sync</Filter>
+    </ClInclude>
+    <ClInclude Include="SharedMutex.h">
+      <Filter>Header Files\Sync</Filter>
+    </ClInclude>
+    <ClInclude Include="UniqueLock.h">
+      <Filter>Header Files\Sync</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
