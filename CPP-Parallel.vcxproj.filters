@@ -62,5 +62,8 @@
     <ClInclude Include="UniqueLock.h">
       <Filter>Header Files\Sync</Filter>
     </ClInclude>
+    <ClInclude Include="SimpleAsync.h">
+      <Filter>Header Files\Async</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

@@ -154,6 +154,7 @@
     <ClInclude Include="ScopedStatic.h" />
     <ClInclude Include="Semaphore.h" />
     <ClInclude Include="SharedMutex.h" />
+    <ClInclude Include="SimpleAsync.h" />
     <ClInclude Include="UniqueLock.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

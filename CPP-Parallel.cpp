@@ -8,7 +8,8 @@
 //#include "ProducerConsumer.h"
 //#include "Semaphore.h"
 //#include "Latch.h"
-#include "Barrier.h"
+//#include "Barrier.h"
+#include "SimpleAsync.h"
 
 int main()
 {
@@ -22,5 +23,6 @@ int main()
     //ProducerConsumerTest();
     //SemaphoreTest2();
     //LatchTest();
-    BarrierTest();
+    //BarrierTest();
+    SimpleAsyncTest();
 }
