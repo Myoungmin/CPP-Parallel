@@ -9,7 +9,8 @@
 //#include "Semaphore.h"
 //#include "Latch.h"
 //#include "Barrier.h"
-#include "SimpleAsync.h"
+//#include "SimpleAsync.h"
+#include "FuturePromise.h"
 
 int main()
 {
@@ -24,5 +25,6 @@ int main()
     //SemaphoreTest2();
     //LatchTest();
     //BarrierTest();
-    SimpleAsyncTest();
+    //SimpleAsyncTest();
+    FuturePromiseTest();
 }
